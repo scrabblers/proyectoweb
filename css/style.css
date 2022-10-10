@@ -21,7 +21,7 @@ body{ /* Así se crea una regla de estilo para el objeto body */
     margin: 0; /* elimina el margen por defecto de body */
 }
 img{
-    display: block;
+    display: blockgit;
 }
 
 p{
