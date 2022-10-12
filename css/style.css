@@ -105,6 +105,11 @@ h1 a:hover{
     background-color: var(--color4);
     color: var(--color-negro);
 }
+
+#brecha{
+    background-color: var(--color4);
+    color: var(--color-negro);
+}
 #main-footer{
     background-color: var(--color-gris-oscuro);
     color: var(--color-gris-claro);
@@ -120,7 +125,7 @@ h1 a:hover{
     text-decoration: none;
 }
 
-#noticias{
+#conceptos{
     background-color: var(--color4);
     color: var(--color-negro);
 }
@@ -134,7 +139,7 @@ h1 a:hover{
     background-attachment: fixed;
 }
 
-#historia{
+#docentes{
     background-color: var(--color5);
 }
 
@@ -147,7 +152,7 @@ h1 a:hover{
     color: var(--color-blanco);
 }
 
-#eventos{
+#colaboradores{
     background-color: var(--color3);
     color: var(--color-negro);
 }
