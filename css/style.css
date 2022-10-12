@@ -63,20 +63,23 @@ h3{
     background-color: var(--color2);
 }
 
-#noticias{
+#conceptos{
     background-color: var(--color4);
     color: var(--color-negro);
 }
 
-#historia{
+#docentes{
     background-color: var(--color5);
 }
 
-#eventos{
+#rompiendo{
     background-color: var(--color3);
     color: var(--color-negro);
 }
-
+#roles{
+    background-color: var(--color4);
+    color: var(--color-negro);
+}
 #main-footer{
     background-color: var(--color-gris-oscuro);
     color: var(--color-gris-claro);
