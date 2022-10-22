@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docentes.TEC</title>
+    <title>NDocentes.TEC</title>
     <link rel="stylesheet" href="css/style.css">
     <!-- Así se vincula a la página web la hoja de estilos  -->
 </head>
@@ -45,15 +45,14 @@
     <div id="nosotros" class="padded">
         <div class="container">
             <div class="botonera">
-                <div class="circulo"></div>
+                <div class="circulo" id="boton-claro"></div>
                 <div class="circulo" id="boton-oscuro"></div>
             </div>
-    <div id="nosotros" class="padded">
-        <div class="container">
             <h2>Nosotros</h2>
             <p>Buscamos aportar a reducir la brecha digital de género brindando información docentes y estudiantes sobre temas de ciencia, trabajo cooperativo, habilidades psicosociales, metacognición y el rol docente en este proceso transformador en la reducción de desigualdad.
-                <a href="https://www.microsoft.com" target="_blank">Microsoft</a> 
+                    <a href="https://www.microsoft.com" target="_blank">Microsoft</a> 
             </p>
+            <h3 id="frase-del-dia">Grupo 10</h3>
         </div><!-- container -->
     </div><!-- nosotros -->
 
@@ -96,7 +95,24 @@
             Mediante el trabajo cooperativo, mediante trabajos en equipo donde cada estudiante asuma un rol y estos sean rotativos; la metacognición, logrando que ellos reconozcan sus modos de aprendizaje y empoderándolos con herramientas TEC y fortaleciendo las habilidades psicosociales y blandas.</p>
         </div><!-- container -->
     </div><!-- Docentes disruptivos -->
+    <!-- *****************************   -->
+    <div id="paisajes" class="padded">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="botonera">
+                        <div class="circulo" id="boton-retroceder"></div>
+                        <div class="circulo" id="boton-avanzar"></div>
+                    </div>
+                </div> <!-- col -->
+                <div class="col">  
+                    <img src="maria-isabel-quiroga.jpg" alt="" id="muestra">
+                </div> <!-- col -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- nosotros -->
 
+    <!-- *****************************   -->
     <div id="roles">
         <div class="container">
             <div class="row">
@@ -187,19 +203,38 @@
         </div><!-- container -->
     </div><!-- valores -->
 
+    <div id="frases" class="padded">
+        <div class="container">
+            <h2>Frases</h2>
+            <div class="row">    
+                <div class="col">
+                    <ul class="frase">
+                        <li id="frase1">1</li>
+                        <li id="frase2">2</li>
+                        <li id="frase3">3</li>
+                        <li id="frase4">4</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p class="mega-texto" id="frase-dia">Frase del día</p>
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- frases -->
+
     <div id="colaboradores" class="padded">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <h2>Colaboradores</h2>
                     <ul id="lista-colaboradores">
-                        <li>Veronica Reyes</li>
-                        <li>Ana Ramirez</li>
-                        <li>Carlos Terrazas</li>
+                        <li id="boton-veronica">Veronica Reyes</li>
+                        <li id="boton-ana">Ana Ramirez</li>
+                        <li id="boton-carlos">Carlos Terrazas</li>
                     </ul>
                 </div> 
                 <div class="col">
-                    <img src="images/grupo.jpg" class="img-fluid" alt="">
+                    <img src="images/grupo.jpg" class="img-fluid" alt="" id="visor">
                 </div> 
             </div>
         </div><!-- container -->
