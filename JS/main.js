@@ -16,7 +16,7 @@ document.getElementById("boton-carlos").addEventListener("click", function(){
 */
 /*****************************************************/
 
-
+                                                            
 let bOscuro = document.getElementById("boton-oscuro");
 let bClaro = document.getElementById("boton-claro");
 let nosotros = document.getElementById("nosotros");
